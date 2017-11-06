@@ -1,6 +1,6 @@
 {
     "server": {
-        "PORT": 9002
+        "PORT": 8080
     },
     "mongo": {
         "host": ""

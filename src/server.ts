@@ -25,6 +25,6 @@ export default class Server {
         this.app.use(middleware);
     }
     public listen(){
-        this.app.listen(9002, (req: express.Request, res: express.Response) => console.log('server listening'));
+        this.app.listen(8080, (req: express.Request, res: express.Response) => console.log('server listening'));
     }
 }

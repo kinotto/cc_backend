@@ -2,19 +2,28 @@ import Server from './server';
 import Mongo from './storage/mongo';
 import {config} from './config';
 import * as express from 'express';
-
+import {VerifyUser} from './verify-user';
 
 let server = Server.getInstance();
 Mongo.connect();
-Mongo.populate();
+Mongo.populateDB();
 
-server.use(require('./routes/locationRoute'));
+server.use('/api', VerifyUser, require('./routes/apiRoutes'));
 
 
 
 //generic error handler
 server.use((err: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {
-    res.status(500).json(err);
+    res.json({
+        message: err.message,
+        error: 500
+    })
 }) 
-server.listen();
+
+server.listen(process.env.PORT || config.server.PORT, (req: express.Request, res: express.Response) => {
+    console.log( `server listening on port  ${process.env.PORT || config.server.PORT}`);
+})
+
+
+//server.listen();
 

@@ -39,5 +39,3 @@ let server = Server.getInstance();
 server.use(require('./routes/locationRoute'));
 server.listen();
 
-
-

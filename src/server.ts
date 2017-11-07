@@ -1,7 +1,7 @@
 import * as express from 'express';
 import * as morgan from 'morgan';
 import * as bodyParser from 'body-parser';
-
+import {config} from './config';
 export default class Server {
     app: express.Application;
     static instance: Server;
@@ -25,6 +25,7 @@ export default class Server {
         this.app.use(middleware);
     }
     public listen(){
-        this.app.listen(8080, (req: express.Request, res: express.Response) => console.log('server listening'));
+        this.app.listen(process.env.PORT || config.server.PORT, (req: express.Request, res: express.Response) => 
+        console.log( `server listening on port  ${process.env.PORT || config.server.PORT}`));
     }
 }

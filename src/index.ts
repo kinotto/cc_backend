@@ -22,6 +22,9 @@ server.use((err: Error, req: express.Request, res: express.Response, next: expre
 
 server.listen(process.env.PORT || config.server.PORT, (req: express.Request, res: express.Response) => {
     console.log( `server listening on port  ${process.env.PORT || config.server.PORT}`);
+
+    let value = 5;
+    value < 0 ? value = 0 : (value > 255 ? value = 255 )
 })
 
 

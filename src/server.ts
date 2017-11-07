@@ -21,7 +21,7 @@ export default class Server {
         }
         return Server.instance;
     }
-    public use(middleware: express.RequestHandler){
+    public use(middleware: express.RequestHandler | express.ErrorRequestHandler){
         this.app.use(middleware);
     }
     public listen(){

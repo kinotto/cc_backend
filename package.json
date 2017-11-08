@@ -1,7 +1,8 @@
 {
   "name": "node-typescript-webpack-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "crowdcube backend",
+  "author": "karim",
   "main": "./src/index",
   "scripts": {
     "start": "npm-run-all --parallel watch:server watch:build ",
@@ -11,7 +12,6 @@
     "build": "webpack ./webpack.config.js",
     "test": "mocha --require ts-node/register src/spec/test.ts"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.0.4",

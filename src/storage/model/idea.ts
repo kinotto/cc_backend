@@ -32,6 +32,14 @@ const ideaSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
+    daysLeft: {
+        type: Number,
+        required: true
+    },
+    page: {
+        type: String,
+        required: true
+    }
     
 })
 export const Idea = mongoose.model('Idea', ideaSchema);

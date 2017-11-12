@@ -12,14 +12,4 @@ router.get('/', (req: express.Request, res: express.Response, next: express.Next
     })
 })
 
-router.post('/:id', (req: express.Request, res: express.Response) => {
-
-})
-
-
-router.delete('/:id', (req: express.Request, res: express.Response) => {
-
-})
-
-//c
 module.exports = router;

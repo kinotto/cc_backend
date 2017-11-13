@@ -1,6 +1,7 @@
 import {expect} from 'chai';
 import {} from "mocha";
 import {Idea} from '../storage/model/idea';
+import {Category} from '../storage/model/category';
 import Mongo from '../storage/mongo';
 import * as mongoose from 'mongoose';
 
@@ -11,15 +12,22 @@ describe('test on mock data', () => {
         connection.once('open', () => done());
     })
 
-    it('should return some mock data', (done) => {
+    it('should return some some ideas', (done) => {
         Idea.find({}, (err, resp) => {
-            console.log(resp.length && resp[0]);
             if(err){
                 done(err);
             }
             done();
         })
-        //expect(true).to.be.true;
+    })
+
+    it('should return some some categories', (done) => {
+        Category.find({}, (err, resp) => {
+            if(err){
+                done(err);
+            }
+            done();
+        })
     })
 
     afterEach(() => {

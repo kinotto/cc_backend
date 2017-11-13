@@ -15,7 +15,7 @@ the backend interacts with a persistence layer (mongoDB) on heroku cloud.
 there's an initial phase that populates the remote db with ideas and categories available (for simplicity they're fetched from the files src/config/ideas.json and src/config/categories.json.
 Once the db is populated the server is ready to handle the requests coming come from the client.
 
-Mongoose library is used to define both the schema of Ideas and Category and for general CRUD operations.
+Mongoose library is used to define both the schema of Idea and Category and for general CRUD operations.
 
 ## routes
 most of the work is on the front, expose to the client there are two routes to fetch both the ideas and the categories.

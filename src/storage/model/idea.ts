@@ -32,11 +32,23 @@ const ideaSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    daysLeft: {
-        type: Number,
+    updated_at: {
+        type: String,
+        required: true
+    },
+    expires_at: {
+        type: String,
         required: true
     },
     page: {
+        type: String,
+        required: true
+    },
+    categories: [{
+        type: String,
+        required: true
+    }],
+    stage: {
         type: String,
         required: true
     }

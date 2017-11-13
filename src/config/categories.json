@@ -1,0 +1,54 @@
+[
+  {
+    "categoryCode": "AU",
+    "description": "Automotive"
+  },
+  {
+    "categoryCode": "BU",
+    "description": "Business services"
+  },
+  {
+    "categoryCode": "CO",
+    "description": "Consumer goods"
+  },
+  {
+    "categoryCode": "CN",
+    "description": "Consumer internet"
+  },
+  {
+    "categoryCode": "ED",
+    "description": "Education"
+  },
+  {
+    "categoryCode": "EN",
+    "description": "Entartainment and media"
+  },
+  {
+    "categoryCode": "FI",
+    "description": "Fitness & sports"
+  },
+  {
+    "categoryCode": "FO",
+    "description": "Food & beverage (FMCG)"
+  },
+  {
+    "categoryCode": "HE",
+    "description": "Healthtech & healthcare"
+  },
+  {
+    "categoryCode": "IT",
+    "description": "IT & Telecommunications"
+  },
+  {
+    "categoryCode": "LE",
+    "description": "Leisure and tourism"
+  },
+  {
+    "categoryCode": "MN",
+    "description": "Manufacturing"
+  },
+  {
+    "categoryCode": "RE",
+    "description": "Restaurants, cafes and bars"
+  }
+]

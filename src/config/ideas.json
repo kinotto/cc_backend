@@ -9,7 +9,10 @@
         "raised": 681700,
         "equity": "2.21%",
         "investors": 841,
-        "daysLeft": 28
+        "updated_at": "2017-11-08 00:17:47",
+        "expires_at": "2017-12-02 23:59:59",
+        "categories": ["AU", "BU"],
+        "stage": "Seed"
     },
     {
         "title": "Movem",
@@ -21,7 +24,10 @@
         "raised": 327000,
         "equity": "11.99%",
         "investors": 292,
-        "daysLeft": 14
+        "updated_at": "2017-10-08 00:17:47",
+        "expires_at": "2017-12-20 23:59:59",
+        "categories": ["CO"],
+        "stage": "Seed"
     },
     {
         "title": "SilverSurfers",
@@ -33,7 +39,10 @@
         "raised": 52750,
         "equity": "3.61%",
         "investors": 42,
-        "daysLeft": 20
+        "updated_at": "2017-11-29 00:17:47",
+        "expires_at": "2017-11-30 23:59:59",
+        "categories": ["CN"],
+        "stage": "Early"
     },
     {
         "title": "Crowdfunder",
@@ -45,7 +54,10 @@
         "raised": 723030,
         "equity": "4.27%",
         "investors": 674,
-        "daysLeft": 23
+        "updated_at": "2017-11-01 00:00:40",
+        "expires_at": "2017-12-20 23:59:59",
+        "categories": ["ED"],
+        "stage": "Early"
     },
     {
         "title": "Rightangled",
@@ -57,7 +69,10 @@
         "raised": 263950,
         "equity": "14.96%",
         "investors": 495,
-        "daysLeft": 22
+        "updated_at": "2017-09-23 00:13:22",
+        "expires_at": "2018-02-02 23:59:59",
+        "categories": ["EN"],
+        "stage": "Growth"
     },
     {
         "title": "Shaw Academy",
@@ -69,7 +84,10 @@
         "raised": 2399130,
         "equity": "2.79%",
         "investors": 1686,
-        "daysLeft": 10
+        "updated_at": "2017-07-22 00:10:22",
+        "expires_at": "2017-12-02 23:59:59",
+        "categories": ["FI"],
+        "stage": "Growth"
     },
     {
         "title": "Loose Ends App",
@@ -81,7 +99,10 @@
         "raised": 33160,
         "equity": "10.00%",
         "investors": 20,
-        "daysLeft": 11
+        "updated_at": "2017-10-23 00:13:22",
+        "expires_at": "2018-03-02 23:59:59",
+        "categories": ["FO"],
+        "stage": "Growth"
     },
     {
         "title": "Housers",
@@ -93,7 +114,10 @@
         "raised": 820430,
         "equity": "2.22%",
         "investors": 937,
-        "daysLeft": 20
+        "updated_at": "2017-09-26 00:13:22",
+        "expires_at": "2018-01-01 23:59:59",
+        "categories": ["HE"],
+        "stage": "Seed"
     },
     {
         "title": "passingboxes",
@@ -105,6 +129,9 @@
         "raised": 71590,
         "equity": "5.00%",
         "investors": 111,
-        "daysLeft": 14
+        "updated_at": "2017-11-07 00:13:22",
+        "expires_at": "2018-12-25 23:59:59",
+        "categories": ["IT", "LE", "MN"],
+        "stage": "Seed"
     }
 ]

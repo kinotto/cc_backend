@@ -8,9 +8,8 @@ let server = Server.getInstance();
 Mongo.connect();
 Mongo.populateDB();
 
-server.use('/api', VerifyUser, require('./routes/apiRoutes'));
-
-
+server.use('/api/ideas', VerifyUser, require('./routes/ideaRoutes'));
+server.use('/api/categories', VerifyUser, require('./routes/categoryRoutes'));
 
 //generic error handler
 server.use((err: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {
@@ -24,6 +23,4 @@ server.listen(process.env.PORT || config.server.PORT, (req: express.Request, res
     console.log( `server listening on port  ${process.env.PORT || config.server.PORT}`);
 })
 
-
-//server.listen();
 

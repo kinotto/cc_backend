@@ -20,6 +20,8 @@ Mongoose library is used to define both the schema of Idea and Category and for 
 ## routes
 most of the work is on the front, expose to the client there are two routes to fetch both the ideas and the categories.
 
+## sources
+see the frontend implementation <a href="https://github.com/kinotto/cc_frontend">here</a>
 
 
 

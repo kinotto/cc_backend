@@ -6,7 +6,7 @@ import {VerifyUser} from './verify-user';
 
 let server = Server.getInstance();
 Mongo.connect();
-Mongo.populateDB();
+//Mongo.populateDB();
 
 server.use('/api/ideas', VerifyUser, require('./routes/ideaRoutes'));
 server.use('/api/categories', VerifyUser, require('./routes/categoryRoutes'));
